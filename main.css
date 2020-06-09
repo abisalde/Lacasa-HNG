@@ -1,0 +1,127 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #E5E5E5;
+    font-family: 'Gilroy';
+}
+
+#welcome {
+    position: absolute;
+    width: 669px;
+    height: 177px;
+    left: 144px;
+    top: 236px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 117.5%;
+    /* or 56px */
+    text-transform: uppercase;
+    color: #333333;
+}
+
+#blurb {
+    position: absolute;
+    width: 634px;
+    height: 156px;
+    left: 144px;
+    top: 452px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 39px;
+    color: #333333;
+}
+
+#view-suites {
+    position: relative;
+    width: 161px;
+    height: 39px;
+    left: 58px;
+    top: 15px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 39px;
+    text-align: center;
+    /* identical to box height */
+    letter-spacing: 0.095em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 10px 0px;
+}
+
+
+}
+
+/*--- navigation bar ---*/
+.navbar {
+    background: white;
+}
+.nav-link,
+.navbar-brand {
+    color: black;
+    cursor: pointer;
+    font-style: normal;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* Our Story */
+#story {
+    position: absolute;
+    width: 111px;
+    height: 39px;
+    left: 144px;
+    top: 871px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 39px;
+    /* identical to box height */
+    
+    color: #999EA3;
+}
+#history-heading {
+    position: absolute;
+    width: 386px;
+    height: 204px;
+    left: 144px;
+    top: 910px;
+    font-family: Abril Fatface;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 141%;
+    text-align: left;
+    /* or 68px */
+    
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #333333;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
