@@ -11,82 +11,107 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <title> Lacasa Suites | Welcome!
     </title>
-</head>
-
-<body>
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+
+<body>
     <div class="container">
-    <nav class="navbar navbar-expand-md">
-        <a class="navbar-logo" href="#"><img src="Lacasa.png"> </a>
-        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+        <!-- Main Navigation-->
+        <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">LacaS&nbsp;<span>A</span></a>
 
-        <div class="collapse-navbar-collapse" id="main-navigation">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+        <!-- Toggle Navigation -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#">Rooms&nbsp;&&nbsp;Rate</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <button type="button" class="btn btn-success">Contact</button>
-                    </a>
+                  <a class="nav-link" href="#">Facilities</a>
                 </li>
-            </ul>
+                <li class="nav-item">
+                <div>
+                    <a class="nav-link"><button type="submit">Contacts</button></a>
+                </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+
+        <!-- main page-->
+        <main class="row">
+            <div class="welcome-lacasa col-md-8 sm-12">
+                <h2>welcome to</h2>
+                <h1>lacasa suite</h1>
+                <p>With over millions of hotels in africa This recipe app’s banner has been customized using Material Theming. Areas of customization include color and typography.</p>
+                <button type="submit">view suites</button>
+            </div>
+            <div class="welcome-image col-md-4 sm-12">
+                <div>
+                    <img src="" alt="lacasa-img">
+                </div>
+                <div>
+                    <img src="" alt="lacasa-img">
+                </div>
+            </div>
+        </main>
+
+        <!-- our story-->
+        <div class="our-story">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Our Story</h2>
+                <h1>a brief history of lacasa suites</h1>
+            </div>
+            <div class="col-md-6">
+                <p>With over millions of hotels in africa This recipe app’s banner has been customized using Material Theming.Areas of customization include color and typography. recipe app’s banner has been customized using Material Theming. Areas of</p>
+            </div>
         </div>
-    </nav>
+        <div class="row">
+            <div class="col-md-6 sm-12">
+                <img src="" alt="lacasa-suites">
+            </div>
+            <div class="col-md-6 sm-12 double-suites">
+                <div>
+                    <img src="" alt="lacasa-suites">
+                </div>
+                <div>
+                    <img src="" alt="lacasa-suites">
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- //our story-->
 
-    <div>
-        <h1 id="welcome">WELCOME TO LACASA SUITES</h1>
-
-        <p id="blurb">With millions of hotels all over Africa, we have a variety of suites that will make your stay welcome</p>
-    </div>
-
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-
-    <div>
-        <button type="button" class="btn btn-success" id="view-suites">View Suites</button>
-    </div>
-
-
-    <br /><br />
-    <div>
-        <p>
-            <h4 id="story">Our Story</h4>
-            <h2 id="history-heading">
-                A Brief History of Lacasa Suites
-            </h2>
-        </p>
-    </div>
-    <br />
-    <style>
-        .footer {
-            width: 100%;
-            background-color: #E5E5E5;
-            color: black;
-            text-align: center;
-            padding: 60px, 0px;
-        }
-    </style>
-
-    <div class="footer">
-        <p>Footer</p>
-    </div>
+        <!-- Rooms & Suites -->
+        <div class="room-suites">
+            <h2>Apartments</h2>
+            <div>
+                <h1>rooms/suites</h1>
+                <a class="all-rooms" href="#">See All Rooms</a>
+            </div>
+            <div class="all-suites-img row">
+                <div class="col-lg-4 md-6 sm-12">
+                    <div>
+                        <img src="" alt="lacasa-rooms">
+                        <p>Deluxe Room</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
     </div>
 </body>
 
